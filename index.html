@@ -8,28 +8,27 @@
 </head>
 <body> 
     <section id="title">
-        <!-- <img id="mainPhoto" src="./src/zdjęcie główne adrianna złoch.jpg" alt="Adrianna Złoch przy pracy na komputerze"> -->
         <h1>Adrianna Złoch</h1>
         <p class="motto">Twoje dziecko wejdzie w krainę wyobraźni podążając za moim głosem</p>
     </section>
     <section id="oferta">
         <h2>Oferta</h2>
         <div id="div_oferta">
-            <div class="div_oferta--element">
-                <img src="./src/zajęcia/tata z córką piszą.jpg" alt="">
-                <h3>Audiobooki i słuchowiska</h3>
+            <div class="div_oferta--element" id="audiobooki">
+                <img class="oferta--img" src="./src/zajęcia/tata z córką piszą.jpg" alt="">
+                <h3 class="oferta--h">Audiobooki i słuchowiska</h3>
             </div>
-            <div class="div_oferta--element">
-                <img src="./src/zajęcia/laurki.jpg" alt="">
-                <h3>Laurki głosowe</h3>
+            <div class="div_oferta--element" id="laurki">
+                <img class="oferta--img" src="./src/zajęcia/laurki.jpg" alt="">
+                <h3 class="oferta--h">Laurki głosowe</h3>
             </div>
-            <div class="div_oferta--element">
-                <img src="./src/zajęcia/pisanie książek.jpg" alt="">
-                <h3>Kaligrafia</h3>
+            <div class="div_oferta--element" id="kaligrafia">
+                <img class="oferta--img" src="./src/zajęcia/pisanie książek.jpg" alt="">
+                <h3 class="oferta--h">Kaligrafia</h3>
             </div>
         </div>
-        <div>
-            <p>Mój głos:</p>
+        <div class="oferta--głos">
+            <h4>Mój głos:</h4>
             <ul>
                 <li>ciepły</li>
                 <li>delikatny</li>
@@ -39,12 +38,15 @@
                 <li>rozbawia</li>
             </ul>
         </div>
-        <h4>Mam nadzieję, że zagoszczę także w Twoich produkcjach</h4> 
-    </section>
-    <section id="o mnie">
-        <div>
-            <img src="./src/Adrianna czyta.jpg" alt="Adrianna czyta książkę">
-            <div>
+        
+            </section>
+    <section id="omnie">
+        <h5>Mam nadzieję, że zagoszczę także w Twoich produkcjach</h5> 
+        <div class="omnie--grid"> 
+            <div id="omnie_grid--img">
+                <img class="omnie--img" src="./src/Adrianna czyta.jpg" alt="Adrianna czyta książkę">
+            </div>
+            <div id="omnie_grid--text">
                 <p>Jestem lektorką bajek z pasją i doświadczeniem telewizyjnym. Tworzę wyjątkowe i pełne czaru audiobooki. Potrafię ożywić historie z literatury dziecięcej. </p>
                 <p> Prywatnie jestem kolekcjonerką książek.</p>
                 <p>Posiadam imponującą kolekcję dziecięcej klasyki literackiej wydanej w języku polskim. Moja znajomość i zamiłowanie do tych dzieł pozwoli wnosić w audiobooki autentyczność i prawdziwą pasję. Moje lektury są pełne ciepła i entuzjazmu.</p>
@@ -86,13 +88,15 @@
     <section id="kontakt">
         <img src="./src/Adrianna zaprasza do kontaktu.jpg" alt="Adrianna czyta książkę z córką">
         <div>
-            <div>
-                <img src="./src/logotypy/Instagram.png" alt="logo instagramu">
-                <a href="https://www.instagram.com/adrianna_zloch">@adrianna_zloch</a>
+            <div class="kontakt_logo--div">
+                <a href="https://www.instagram.com/adrianna_zloch" target="_blank">
+                    <img class="kontakt--logo" src="./src/logotypy/Instagram.png" alt="logo instagramu">
+                </a>
             </div>
-            <div>
-                <img src="./src/logotypy/mail.png" alt="kopertka do poczty elektronicznej">
-                <p>Mail</p>
+            <div class="kontakt_logo--div">
+                <a href="mailto:" target="_blank">
+                    <img class="kontakt--logo" src="./src/logotypy/mail.png" alt="kopertka do poczty elektronicznej">
+                </a>
             </div>
         </div>
     </section>

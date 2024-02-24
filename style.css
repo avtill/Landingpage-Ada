@@ -5,6 +5,7 @@ color: #d2ebeb;
 font-size: 2rem;
 margin: 0;
 width: 100%;
+
 }
 
 #title{
@@ -31,3 +32,105 @@ img {
     position: relative; bottom: -15rem;
 }
 
+.oferta--img {
+    display: block;
+    max-width: 80%;
+    max-height: 15rem;
+    border-radius: 0 5rem 5rem 0;
+}
+.oferta--h{
+    display: block;
+    position: relative;
+    top: -6rem;
+    left: 2rem;
+    background-color: rgb(27, 42, 27, 0.8);
+}
+h2, h4, h5{
+    margin: 2rem
+}
+p{
+    margin: 2rem
+}
+.oferta--głos{
+    padding: 1rem;
+    font-size: 1,5rem;
+    font-style: italic;
+}
+.kontakt_logo--div{
+max-width: 45%;
+}
+
+.div_referencje--logotypy{
+    max-width: 70%;
+    margin: 0 auto
+}
+
+.kontakt--logo{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+    .motto {
+        bottom: -25rem;
+    }
+    #div_oferta{
+        padding:  0 5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+        height: 35rem;
+    }
+  
+    .oferta--img{
+        max-height: 35rem;
+        border-radius: 15rem 15rem 0rem 0;
+        box-shadow: 2rem 1rem 3rem 1rem  #ffe4c4;
+    }
+    #audiobooki{
+        grid-column: 1;
+        grid-row: 1
+    }
+    #laurki{
+        grid-column: 2;
+        grid-row: 1
+    }
+    #kaligrafia{
+        grid-column:3;
+        grid-row: 1
+    }
+    .oferta--h{
+        top: -9rem;
+    }
+    .oferta--głos{
+        width: 25rem;
+        margin: auto;
+        height: 15rem;
+    }
+    h5{
+        display: block;
+        width: 35%;
+        padding: 1rem;
+        border-radius: 2rem;
+        background-color: rgb(50, 51, 50, 0.8); 
+        box-shadow: #1b2a1b 1rem 1rem ;
+        position: relative; top: 8rem;
+    }
+    .omnie--img{
+        max-height: 50rem;
+    }
+    .omnie--grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        align-items: start
+    }
+    #omnie_grid--img{
+        grid-column: 1;
+    }
+    #omnie_grid--text{
+        grid-column: 2;
+    }
+  
+}

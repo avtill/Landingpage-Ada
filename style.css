@@ -91,6 +91,7 @@ max-width: 45%;
 
 .div_referencje--logotypy{
     max-width: 70%;
+    min-height: 3rem;
     margin: 0 auto;
 }
 
@@ -145,6 +146,9 @@ a{
         width: 25rem;
         margin: auto;
         height: 15rem;
+    }
+    div_oferta--element{
+        min-height: 15rem;
     }
     h5{
         display: block;

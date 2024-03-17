@@ -36,6 +36,31 @@ width: 100%;
     }
   }
 
+h1, h2, h3, h4, h5 {
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: 5rem;
+}
+h2, h3 h4, h5{
+    font-size: 3rem ;
+}
+h2, h4, h5{
+    margin: 2rem
+}
+h5{
+    display: block;
+    width: 75%;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: rgb(50, 51, 50, 0.8); 
+    box-shadow: #1b2a1b 1rem 1rem ;
+    position: relative; top: 8rem;
+}
+
 #title{
     height: 40rem;
     padding: 2rem;
@@ -57,7 +82,7 @@ img {
     border-radius: 2rem;
     background-color: rgb(50, 51, 50, 0.8); 
     box-shadow: #1b2a1b 1rem 1rem ;
-    position: relative; bottom: -15rem;
+margin-top: 17rem;
 }
 
 .oferta--img {
@@ -74,9 +99,7 @@ img {
     left: 2rem;
     background-color: rgb(27, 42, 27, 0.8);
 }
-h2, h4, h5{
-    margin: 2rem
-}
+
 p{
     margin: 2rem
 }
@@ -94,6 +117,13 @@ max-width: 45%;
     min-height: 3rem;
     margin: 0 auto;
 }
+.div_referencje_logotypy--img{
+    width: 15rem ;
+    height: 15rem;
+    border-radius: 10rem;
+    box-shadow:0 0 1rem 1rem rgba(255, 228, 196, 0.35);
+
+}
 
 .kontakt--logo{
     height: 5rem;
@@ -105,13 +135,20 @@ a{
     text-decoration: none;
     color:#d2ebeb
 }
+.box_kontakt--items{
+    padding: 1rem;
+   margin:auto
+}
 
 @media screen and (min-width: 700px) {
     body{
         font-size: 2rem;
     }
+    h1{
+        font-size: 10rem;
+    }
     .motto {
-        bottom: -25rem;
+        margin-top: 12rem;
     }
     #div_oferta{
         padding:  0 5rem;
@@ -151,13 +188,7 @@ a{
         min-height: 15rem;
     }
     h5{
-        display: block;
         width: 35%;
-        padding: 1rem;
-        border-radius: 2rem;
-        background-color: rgb(50, 51, 50, 0.8); 
-        box-shadow: #1b2a1b 1rem 1rem ;
-        position: relative; top: 8rem;
     }
     .omnie--img{
         max-height: 50rem;
